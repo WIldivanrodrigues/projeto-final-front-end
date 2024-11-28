@@ -1,40 +1,49 @@
 body {
-    background-color: rgb(189, 189, 189);
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed;
-    color: #333333;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f9;  /* cor de fundo se a imagem não carregar */
+    color: #333;
+    line-height: 1.6;
+    background-size: cover; /* Para cobrir toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.column {
-    flex: 1;
-    margin: 10px;
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
 }
 
-h1, h2, h3 {
-    color: #333333;
+a {
+    text-decoration: none;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #FF8C42;
+    padding: 20px;
     text-align: center;
 }
 
-ul, ol {
-    margin: 20px;
-    padding: 0;
-    list-style-position: inside;
+.recipe-title {
+    color: white;
+    text-shadow: 2px 2px 2px  black;
+    font-size: 36px;
+    margin-top: 10px;
 }
 
-li {
-    margin-bottom: 10px;
-}
-
-button {
-    background-color: #ffcc00;
+.btn-home {
+    background-color: #fff;
+    color: #FF8C42;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -42,13 +51,47 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
-    background-color: #ff9900;
+.btn-home:hover {
+    background-color: #f3b691;
+    transition: 0.3s;
 }
 
-footer {
+/* Conteúdo principal */
+.recipe-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+strong {
+    color: #333;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    margin-top: 50px;
-    font-size: 14px;
-    color: #666666;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
