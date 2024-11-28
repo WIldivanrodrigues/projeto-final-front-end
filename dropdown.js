@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
                         dropdown.classList.add('dropdown-menu', 'show');
                         
                         const recipes = [
-                            { country: 'Brasileira', links: ['acaraje.html', 'baiao.html', 'carreteiro.html', 'moqueca.html', 'tacaca.html'] },
-                            { country: 'Chinesa', links: ['dumplings.html', 'peking-duck.html', 'kung-pao-chicken.html', 'sweet-and-sour-pork.html', 'mapo-tofu.html'] },
-                            { country: 'Italiana', links: ['tiramisu.html', 'spaghetti-alla-carbonara.html', 'pizza-margherita.html', 'lasagna-alla-bolognese.html', 'risotto-alla-milanese.html'] },
-                            { country: 'Japonesa', links: ['takoyaki.html', 'okonomiyaki.html', 'tonkatsu.html', 'gyoza.html', 'unagi.html'] }
+                            { country: 'Brasileira', links: ['Acarajé.html', 'Baião.html', 'Carreteiro.html', 'Moqueca.html', 'Tacacá.html'] },
+                            { country: 'Chinesa', links: ['Dumplings.html', 'Pato-de-Pequim.html', 'Frango-Kung-Pao.html', 'Porco-Agridoce.html', 'Mapo-Tofu.html'] },
+                            { country: 'Italiana', links: ['Tiramisù.html', 'Espaguete-Carbonara.html', 'Pizza-Marguerita.html', 'Lasanha-Bolonhesa.html', 'Risoto-de-Açafrão.html'] },
+                            { country: 'Japonesa', links: ['Takoyaki.html', 'Okonomiyaki.html', 'Tonkatsu.html', 'Gyoza.html', 'Unagi.html'] }
                         ];
 
                         const country = card.querySelector('.card-title').textContent;
