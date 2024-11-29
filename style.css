@@ -74,14 +74,19 @@ body{
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
+    cursor: pointer;
     }
     
     .card:hover {
         box-shadow: 5px 5px 5px #FF8C42;
 }
-    
-   
 
+.dropdown-item:hover {
+    background-color: #a39e9e;
+    color: #333333;
+    cursor: pointer;
+   
+}
 .card-img-top {
     width: 100%;
     height: auto;
@@ -100,4 +105,7 @@ body{
 .dropdown-menu {
     left: 50%;
     transform: translateX(-50%);
+}
+.card.show .dropdown-menu {
+    display: block; /* Mostra o dropdown quando o card tem a classe 'show' */
 }
