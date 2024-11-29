@@ -70,11 +70,17 @@ body{
 }
 
 .card {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
+    }
+    
+    .card:hover {
+        box-shadow: 5px 5px 5px #FF8C42;
 }
+    
+   
 
 .card-img-top {
     width: 100%;
