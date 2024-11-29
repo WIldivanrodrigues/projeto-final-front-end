@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #f4f4f9;  /* cor de fundo se a imagem não carregar */
-    color: #333;
+    color: #333333;
     line-height: 1.6;
     background-size: cover; /* Para cobrir toda a tela */
     background-position: center center; /* Centraliza a imagem */
@@ -18,8 +18,8 @@ body {
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #75758f;
+    color: #333333;
     line-height: 1.6;
 }
 
@@ -29,21 +29,20 @@ a {
 
 /* Cabeçalho */
 .header {
-    background-color: #FF8C42;
+    background-color: #f36710;
     padding: 20px;
     text-align: center;
 }
 
 .recipe-title {
-    color: white;
-    text-shadow: 2px 2px 2px  black;
+    color: #333333;
     font-size: 36px;
     margin-top: 10px;
 }
 
 .btn-home {
     background-color: #fff;
-    color: #FF8C42;
+    color: #333333;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -94,4 +93,10 @@ strong {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
 }
