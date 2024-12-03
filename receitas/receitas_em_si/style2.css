@@ -30,14 +30,25 @@ a {
 /* Cabeçalho */
 .header {
     background-color: #f36710;
-    padding: 20px;
-    text-align: center;
+    padding: 70px;
+    display: flex; /* Usando flexbox para distribuir o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Alinha verticalmente o conteúdo */
 }
 
 .recipe-title {
-    color: #333333;
-    font-size: 36px;
-    margin-top: 10px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Centraliza o título dentro do seu container */
+    position: absolute; /* Usa posição absoluta para centralizar */
+    left: 50%; /* Alinha o título no meio do cabeçalho */
+    transform: translateX(-50%); /* Ajusta o título para ficar exatamente no centro */
 }
 
 .btn-home {
@@ -48,7 +59,11 @@ a {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    position: absolute; /* Garante que o botão fique fixo no canto esquerdo */
+    left: 20px; /* Distância da borda esquerda */
+    top: 50px
 }
+
 
 .btn-home:hover {
     background-color: #f3b691;
@@ -70,19 +85,18 @@ h2, h3 {
     margin-bottom: 10px;
 }
 
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
+
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-ol {
-    list-style-type: decimal;
-    padding-left: 20px;
-}
 
 strong {
     color: #333;
 }
+
 
 /* Rodapé */
 .footer {
