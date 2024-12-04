@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cozinha Sem Fronteiras</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">   
 
 </head>
 <main>
     <header>
-        <div class="titulo_principal">
-            <h1>Cozinha Sem Fronteiras</h1>
-        </div>
-        <div class="subtitulo_principal">
-            <h2>Receitas do Mundo</h2>
-        </div>
+        <h1><i class="fas fa-globe-americas"></i> Cozinha Sem Fronteiras</h1>
+        <p>Descubra receitas autênticas de todo o mundo</p>
     </header>
     <body>
         <div class="container">
@@ -26,32 +23,32 @@
                         <div id="carouselBrasil" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <a href="receitas/brasileira.html">
+                                    <a>
                                         <img src="images/c-brasileira.png" class="d-block w-100 card-img" alt="Brasileira">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/acaraje.html">
+                                    <a href="receitas/receitas_em_si/Acarajé.html">
                                         <img src="images/acaraje.jpg" class="d-block w-100 card-img" alt="Acarajé">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/baiao.html">
+                                    <a href="receitas/receitas_em_si/Baião.html">
                                         <img src="images/baiao.jpg" class="d-block w-100 card-img" alt="Baião">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/carreteiro.html">
+                                    <a href="receitas/receitas_em_si/Carreteiro.html">
                                         <img src="images/carreteiro.jpg" class="d-block w-100 card-img" alt="Carreteiro">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/moqueca.html">
+                                    <a href="receitas/receitas_em_si/Moqueca.html">
                                         <img src="images/moqueca.jpg" class="d-block w-100 card-img" alt="Moqueca">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/tacaca.html">
+                                    <a href="receitas/receitas_em_si/Tacaca.html">
                                         <img src="images/tacaca.jpg" class="d-block w-100 card-img" alt="Tacaca">
                                     </a>
                                 </div>
@@ -69,50 +66,38 @@
                             <h5 class="card-title">Brasileira</h5>
                         </div>
                     </div>
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        const carouselBrasil = document.getElementById('carouselBrasil');
-                        const cardTitle = carouselBrasil.closest('.card').querySelector('.card-title');
-
-                        carouselBrasil.addEventListener('slide.bs.carousel', function(event) {
-                            const activeItem = event.relatedTarget;
-                            const imgAlt = activeItem.querySelector('img').alt;
-                            cardTitle.textContent = imgAlt;
-                        });
-                    });
-                </script>
             </div>
                 <div class="col-md-3">
                     <div class="card">
                         <div id="carouselChina" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <a href="receitas/chinesa.html">
+                                    <a>
                                         <img src="images/c-chinesa.png" class="d-block w-100 card-img" alt="Chinesa">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/dumplings.html">
+                                    <a href="receitas/receitas_em_si/Dumplings.html">
                                         <img src="images/Dumplings.jpeg" class="d-block w-100 card-img" alt="Dumplings">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/peking-duck.html">
+                                    <a href="receitas/receitas_em_si/Pato-de-Pequim.html">
                                         <img src="images/PatoDePequim.jpeg" class="d-block w-100 card-img" alt="Pato de Pequim">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/kung-pao-chicken.html">
+                                    <a href="receitas/receitas_em_si/Frango-Kung-Pao.html">
                                         <img src="images/FrangoKungPao.jpeg" class="d-block w-100 card-img" alt="Frango Kung Pao">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/sweet-and-sour-pork.html">
+                                    <a href="receitas/receitas_em_si/Porco-Agridoce.html">
                                         <img src="images/PorcoAgridoce.jpeg" class="d-block w-100 card-img" alt="Porco Agridoce">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/mapo-tofu.html">
+                                    <a href="receitas/receitas_em_si/Mapo-Tofu.html">
                                         <img src="images/MapoTofu.jpg" class="d-block w-100 card-img" alt="Mapo Tofu">
                                     </a>
                                 </div>
@@ -148,32 +133,32 @@
                         <div id="carouselItalia" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <a href="receitas/brasileira.html">
+                                    <a>
                                         <img src="images/c-italiana.png" class="d-block w-100 card-img" alt="Italiana">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/tiramisu.html">
+                                    <a href="receitas/receitas_em_si/Tiramisù.html">
                                         <img src="images/tiramisu.jpg" class="d-block w-100 card-img" alt="Tiramisu">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/spaghetti-alla-carbonara.html">
+                                    <a href="receitas/receitas_em_si/Espaguete-Carbonara.html">
                                         <img src="images/spaghetti-alla-carbonara.jpg" class="d-block w-100 card-img" alt="Espaguete à Carbonara">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/pizza-margherita.html">
+                                    <a href="receitas/receitas_em_si/Pizza-Marguerita.html">
                                         <img src="images/pizza-margherita.jpg" class="d-block w-100 card-img" alt="Pizza Marguerita">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/lasagna-alla-bolognese.html">
+                                    <a href="receitas/receitas_em_si/Lasanha-Bolonhesa.html">
                                         <img src="images/lasagna-alla-bolognese.jpg" class="d-block w-100 card-img" alt="Lasanha Milanesa">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/risotto-alla-milanese.html">
+                                    <a href="receitas/receitas_em_si/Risoto-de-Açafrão.html">
                                         <img src="images/risotto-alla-milanese.jpg" class="d-block w-100 card-img" alt="Risoto à Milanesa">
                                     </a>
                                 </div>
@@ -209,34 +194,37 @@
                         <div id="carouselJapao" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <a href="receitas/japonesa.html">
+                                    <a>
                                         <img src="images/C-japo-at.png" class="d-block w-100 card-img" alt="Japonesa">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/takoyaki.html">
+                                    <a href="receitas/receitas_em_si/Takoyaki.html">
                                         <img src="images/Takoyaki.jpeg" class="d-block w-100 card-img" alt="Takoyaki">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/okonomiyaki.html">
+                                    <a href="receitas/receitas_em_si/Okonomiyaki.html">
                                         <img src="images/Okonomiyaki.jpg" class="d-block w-100 card-img" alt="Okonomiyaki">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/tonkatsu.html">
+                                    <a href="receitas/receitas_em_si/Tonkatsu.html">
                                         <img src="images/Tonkatsu.jpg" class="d-block w-100 card-img" alt="Tonkatsu">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/gyoza.html">
+                                    <a href="receitas/receitas_em_si/Gyoza.html">
                                         <img src="images/Gyoza.jpeg" class="d-block w-100 card-img" alt="Gyoza">
                                     </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <a href="receitas/receitas_em_si/unagi.html">
+                                    <a href="receitas/receitas_em_si/Unagi.html">
                                         <img src="images/Unagi.jpg" class="d-block w-100 card-img" alt="Unagi">
                                     </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Japonesa</h5>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselJapao" data-bs-slide="prev">
@@ -247,9 +235,6 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Japonesa</h5>
                         </div>
                     </div>
                     <script>
@@ -267,71 +252,121 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/C-grega-at.png" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
+                        <div id="carouselGrecia" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a>
+                                        <img src="images/C-grega-at.png" class="d-block w-100 card-img" alt="Grega">
+                                    </a>
+                                </div>
                             <h5 class="card-title">Grega</h5>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/C-india-at.png" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
+                        <div id="carouselIndia" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a>
+                                        <img src="images/C-india-at.png" class="d-block w-100 card-img" alt="Indiana">
+                                    </a>
+                                </div>
                             <h5 class="card-title">Indiana</h5>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/C-liba-at.png" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
+                        <div id="carouselLibano" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a>
+                                        <img src="images/C-liba-at.png" class="d-block w-100 card-img" alt="Libanesa">
+                                    </a>
+                                </div>
                             <h5 class="card-title">Libanesa</h5>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/C-mexico-at.png" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
+                        <div id="carouselMexico" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a>
+                                        <img src="images/C-mexico-at.png" class="d-block w-100 card-img" alt="Mexicana">
+                                    </a>
+                                </div>
                             <h5 class="card-title">Mexicana</h5>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/C-tailandesa-at.png" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
+                        <div id="carouselTailandia" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a>
+                                        <img src="images/C-tailandesa-at.png" class="d-block w-100 card-img" alt="Tailandesa">
+                                    </a>
+                                </div>
                             <h5 class="card-title">Tailandesa</h5>
                         </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/C-turca-at.png" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
+                        <div id="carouselTurquia" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a>
+                                        <img src="images/C-turca-at.png" class="d-block w-100 card-img" alt="Turca">
+                                    </a>
+                                </div>
                             <h5 class="card-title">Turca</h5>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <img src="images/C-espan-at.png" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Espanhola</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="images/C-france-at.png" class="card-img-top card-img" alt="...">
-                        <div class="card-body">
+                        <div id="carouselEspanha" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a>
+                                        <img src="images/C-espan-at.png" class="d-block w-100 card-img" alt="Espanhola">
+                                    </a>
+                                </div>
+                            <h5 class="card-title">Espanhola</h5>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div id="carouselFranca" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a>
+                                        <img src="images/C-france-at.png" class="d-block w-100 card-img" alt="Francesa">
+                                    </a>
+                                </div>
                             <h5 class="card-title">Francesa</h5>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <script src="scripts.js"></script>
+        <script src="dropdown.js"></script>
+        <script src="caption.js"></script>
     </body>
 </main>
 </html>

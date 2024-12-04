@@ -1,54 +1,125 @@
-body {
-    background-color: rgb(189, 189, 189);
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed;
-    color: #333333;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.column {
-    flex: 1;
-    margin: 10px;
-}
-
-h1, h2, h3 {
-    color: #333333;
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
-ul, ol {
-    margin: 20px;
+body {
+    background-color: #f4f4f9;  /* cor de fundo se a imagem não carregar */
+    color: #333333;
+    line-height: 1.6;
+    background-size: cover; /* Para cobrir toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+}
+
+/* Reset básico */
+* {
+    margin: 0;
     padding: 0;
-    list-style-position: inside;
+    box-sizing: border-box;
 }
 
-li {
-    margin-bottom: 10px;
+/* Estilos gerais */
+body {
+    background-color: #75758f;
+    color: #333333;
+    line-height: 1.6;
 }
 
-button {
-    background-color: #ffcc00;
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    background: linear-gradient(135deg, #FF8C42, #ff4d4d);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #333333;
+    color: white;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+}
+.recipe-img{
+    height: 40px;
+    width: 40px;
+    max-width: 40px;
+}
+
+.recipe-title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Centraliza o título dentro do seu container */
+    position: absolute; /* Usa posição absoluta para centralizar */
+    left: 50%; /* Alinha o título no meio do cabeçalho */
+    transform: translateX(-50%); /* Ajusta o título para ficar exatamente no centro */
+}
+
+.btn-home {
+    background-color: #fff;
+    color: #333333;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    position: absolute; /* Garante que o botão fique fixo no canto esquerdo */
+    left: 20px; /* Distância da borda esquerda */
+    top: 40px;
 }
 
-button:hover {
-    background-color: #ff9900;
+
+.btn-home:hover {
+    background-color: #ecc0a4;
+    transition: 0.3s;
 }
 
-footer {
+/* Conteúdo principal */
+.recipe-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+strong {
+    color: #333;
+}
+
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    margin-top: 50px;
-    font-size: 14px;
-    color: #666666;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
 }
