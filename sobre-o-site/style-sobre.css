@@ -5,13 +5,13 @@
 }
 body{
     
-        background-color: #f4f4f9;  
-        color: #333333;
-        line-height: 1.6;
-        background-size: cover; 
-        background-position: center center; 
-        background-attachment: fixed; 
-    }
+    background-color: #f4f4f9;  
+    color: #333333;
+    line-height: 1.6;
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+}
 header{
     background: linear-gradient(135deg, #FF8C42, #ff4d4d);
     border-radius: 10px;
@@ -52,9 +52,9 @@ button {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 0.1px 0;
-    position: inherit;
-    bottom: 0;
+    padding: 2px;
+    position: fixed;
+    bottom: 1;
     width: 100%;
-    border-radius: 10px;
+    
 }
