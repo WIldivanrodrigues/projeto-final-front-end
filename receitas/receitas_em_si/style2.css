@@ -48,7 +48,8 @@ a {
 
 .recipe-title {
     color: #fff;
-    font-size: 48px;
+    font-size: 
+        calc(1.5rem + 1vw);
     font-weight: 700;
     margin: 0;
     padding: 10px 0;
