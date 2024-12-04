@@ -19,6 +19,18 @@ header{
     size: 20px;
     color: white;
     padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:  10px 20px;
+}
+button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .btn-home {
     background-color: #fff;
@@ -28,7 +40,7 @@ header{
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
-    position: static; 
+    position: pointer; 
     left: 20px; 
     top: 40px;
 }

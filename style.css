@@ -36,12 +36,6 @@ h3{
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{
-   background-color: rgb(189, 189, 189);
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed; 
-}
 
 .subtitulo_principal {
     text-align: center;
