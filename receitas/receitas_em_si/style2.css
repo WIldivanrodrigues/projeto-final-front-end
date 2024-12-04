@@ -96,7 +96,18 @@ h2, h3 {
 
 
 
-ul, ol {
+ul{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    margin-left: 20px;
+    list-style-position: inside;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    text-align: left;
+}
+ol {
     margin-left: 20px;
     margin-bottom: 20px;
 }
