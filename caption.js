@@ -11,12 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
             
             const captionText = document.createElement('p');
             captionText.textContent = img.alt;
-            captionText.style.padding = '0px';
-            captionText.style.fontSize = '1.2em';
+            captionText.style.padding = '0px, 0px, 0px, 0px';
+            captionText.style.fontSize = '16px';
             captionText.style.color = 'white'; 
             captionText.style.position = 'absolute';
             captionText.style.textAlign = 'left';
-            captionText.style.borderRadius = '5px';
             captionText.style.zIndex = '2';
             
             caption.appendChild(captionText);
