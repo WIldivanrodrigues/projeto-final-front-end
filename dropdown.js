@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const recipes = [
                 { country: 'Brasileira', links: ['Acarajé.html', 'Baião.html', 'Carreteiro.html', 'Moqueca.html', 'Tacaca.html'] },
-                { country: 'Chinesa', links: ['Dumplings.html', 'Pato-de-Pequim.html', 'Frango-Kung-Pao.html', 'Porco-Agridoce.html', 'Mapo-Tofu.html'] },
+                { country: 'Chinesa', links: ['Dumpling.html', 'Pato-de-Pequim.html', 'Frango-Kung-Pao.html', 'Porco-Agridoce.html', 'Mapo-Tofu.html'] },
                 { country: 'Italiana', links: ['Tiramisù.html', 'Espaguete-Carbonara.html', 'Pizza-Marguerita.html', 'Lasanha-Bolonhesa.html', 'Risoto-de-Açafrão.html'] },
                 { country: 'Japonesa', links: ['Takoyaki.html', 'Okonomiyaki.html', 'Tonkatsu.html', 'Gyoza.html', 'Unagi.html'] }
             ];
