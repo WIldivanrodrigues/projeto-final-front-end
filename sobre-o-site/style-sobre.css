@@ -53,8 +53,8 @@ button {
     color: #fff;
     text-align: center;
     padding: 2px;
-    position: fixed;
-    bottom: 1;
+    position: absolute;
+    bottom: 2;
     width: 100%;
-    
 }
+
