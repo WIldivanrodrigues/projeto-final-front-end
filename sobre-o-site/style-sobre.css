@@ -11,6 +11,7 @@ body{
     background-size: cover; 
     background-position: center center; 
     background-attachment: fixed; 
+    padding: 2px 0px 1px 0px;
 }
 header{
     background: linear-gradient(135deg, #FF8C42, #ff4d4d);
@@ -22,7 +23,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding:  10px 20px;
+    padding:  10px 20px 10px 20px;
 }
 button {
     background-color: #ffcc00;
